@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	Logic
+%define		pdir	Math
+%define		pnam	Logic
 Summary:	Math::Logic - pure 2, 3 or multi-value logic
 Summary(pl):	Math::Logic - logika czysto 2-, 3- lub wielowarto¶ciowa
 Name:		perl-Math-Logic
