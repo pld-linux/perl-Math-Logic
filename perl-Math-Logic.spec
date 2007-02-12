@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Logic
 Summary:	Math::Logic - pure 2, 3 or multi-value logic
-Summary(pl):	Math::Logic - logika czysto 2-, 3- lub wielowarto¶ciowa
+Summary(pl.UTF-8):   Math::Logic - logika czysto 2-, 3- lub wielowartoÅ›ciowa
 Name:		perl-Math-Logic
 Version:	1.19
 Release:	1
@@ -30,15 +30,15 @@ practice. Given the choice Perl's built-in logical operators are to be
 preferred - but when you really want pure 2-degree logic or 3-degree
 logic or multi-degree logic they are available through this module.
 
-%description -l pl
+%description -l pl.UTF-8
 Wbudowane w Perla operatory logiczne: "and", "or", "xor" i "not"
-obs³uguj± logikê 2-warto¶ciow±. Oznacza to, ¿e zawsze zwracaj± wynik,
-który jest prawd± lub fa³szem. W rzeczywisto¶ci Perl czasami zwraca 0,
-a czasami undef jako fa³sz, w zale¿no¶ci od operatora i kolejno¶ci
-argumentów. Jako "prawdê" Perl zwykle zwraca pierwsz± warto¶æ, z
-której wyliczona zosta³a prawda, co okazuje siê byæ bardzo przydatne w
-praktyce. Ten modu³ udostêpnia logikê czysto 2-warto¶ciow±,
-3-warto¶ciow± lub wielowarto¶ciow±.
+obsÅ‚ugujÄ… logikÄ™ 2-wartoÅ›ciowÄ…. Oznacza to, Å¼e zawsze zwracajÄ… wynik,
+ktÃ³ry jest prawdÄ… lub faÅ‚szem. W rzeczywistoÅ›ci Perl czasami zwraca 0,
+a czasami undef jako faÅ‚sz, w zaleÅ¼noÅ›ci od operatora i kolejnoÅ›ci
+argumentÃ³w. Jako "prawdÄ™" Perl zwykle zwraca pierwszÄ… wartoÅ›Ä‡, z
+ktÃ³rej wyliczona zostaÅ‚a prawda, co okazuje siÄ™ byÄ‡ bardzo przydatne w
+praktyce. Ten moduÅ‚ udostÄ™pnia logikÄ™ czysto 2-wartoÅ›ciowÄ…,
+3-wartoÅ›ciowÄ… lub wielowartoÅ›ciowÄ….
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
