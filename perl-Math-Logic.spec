@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Logic
 Summary:	Math::Logic - pure 2, 3 or multi-value logic
-Summary(pl.UTF-8):   Math::Logic - logika czysto 2-, 3- lub wielowartościowa
+Summary(pl.UTF-8):	Math::Logic - logika czysto 2-, 3- lub wielowartościowa
 Name:		perl-Math-Logic
 Version:	1.19
 Release:	1
