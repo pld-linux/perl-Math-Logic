@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Math
 %define		pnam	Logic
+%include	/usr/lib/rpm/macros.perl
 Summary:	Math::Logic - pure 2, 3 or multi-value logic
 Summary(pl.UTF-8):	Math::Logic - logika czysto 2-, 3- lub wielowartościowa
 Name:		perl-Math-Logic
@@ -14,6 +14,7 @@ License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	01352cf5bf8f4be78779ac57c033b7b5
+URL:		http://search.cpan.org/dist/Math-Logic/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
