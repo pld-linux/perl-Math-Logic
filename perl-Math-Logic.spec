@@ -4,7 +4,6 @@
 
 %define		pdir	Math
 %define		pnam	Logic
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math::Logic - pure 2, 3 or multi-value logic
 Summary(pl.UTF-8):	Math::Logic - logika czysto 2-, 3- lub wielowartościowa
 Name:		perl-Math-Logic
