@@ -8,7 +8,7 @@ Summary:	Math::Logic - pure 2, 3 or multi-value logic
 Summary(pl.UTF-8):	Math::Logic - logika czysto 2-, 3- lub wielowartościowa
 Name:		perl-Math-Logic
 Version:	1.19
-Release:	2
+Release:	3
 License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
